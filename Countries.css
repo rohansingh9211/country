@@ -1,0 +1,29 @@
+.Countries{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.countriesCard{
+    background-color: aliceblue;
+    margin: 2%;
+    padding: 2%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 550px;
+}
+.flagImage{
+    width: 300px;
+    height: 100px;
+}
+.refreshBtn{
+    background-color: brown;
+    color: white;
+    padding: 1%;
+    margin: auto;
+}
+.header{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
